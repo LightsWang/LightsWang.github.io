@@ -12,7 +12,6 @@ module.exports = {
       lang: 'zh-CN'
     }
   },
-  base: '/myBlog/',
   themeConfig: {
     noFoundPageByTencent: false,
     nav: [
