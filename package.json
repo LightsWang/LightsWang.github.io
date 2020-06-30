@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vuepress dev .",
     "build": "vuepress build .",
-    "d": "bash deploy.sh"
+    "d": "bash deploy.sh",
+    "p": "bash push.sh"
   },
   "devDependencies": {
     "vuepress": "1.5.0",
