@@ -1,6 +1,6 @@
 module.exports = {
-  title: "王某人",
-  description: '王某人的个人博客',
+  title: "简简单单、点点滴滴",
+  description: '简简单单、点点滴滴的个人博客',
   dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -17,12 +17,12 @@ module.exports = {
     nav: [
       { text: '主页', link: '/', icon: 'reco-home' },
       { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
-      { text: '联系', 
-        icon: 'reco-message',
-        items: [
-          { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' }
-        ]
-      }
+      // { text: '联系', 
+      //   icon: 'reco-message',
+      //   items: [
+      //     { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' }
+      //   ]
+      // }
     ],
     sidebar: {
       '/docs/theme-reco/': [
@@ -46,20 +46,20 @@ module.exports = {
         ariLabel:"标签",
       }
     },
-    friendLink: [
-      {
-        title: '王某人',
-        desc: '测试啊测试',
-        email: '1156743527@qq.com',
-        link: 'https://www.recoluan.com'
-      },
-      {
-        title: 'vuepress-theme-reco',
-        desc: 'A simple and beautiful vuepress Blog & Doc theme.',
-        avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        link: 'https://vuepress-theme-reco.recoluan.com'
-      },
-    ],
+    // friendLink: [
+    //   {
+    //     title: '王某人',
+    //     desc: '测试啊测试',
+    //     email: '1156743527@qq.com',
+    //     link: 'https://www.recoluan.com'
+    //   },
+    //   {
+    //     title: 'vuepress-theme-reco',
+    //     desc: 'A simple and beautiful vuepress Blog & Doc theme.',
+    //     avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+    //     link: 'https://vuepress-theme-reco.recoluan.com'
+    //   },
+    // ],
     logo: '/logo.png',
     // 搜索设置
     search: true,
@@ -69,13 +69,13 @@ module.exports = {
     // 最后更新时间
     lastUpdated: 'Last Updated',
     // 作者
-    author: '王某人',
+    author: '简简单单、点点滴滴',
     // 作者头像
-    authorAvatar: '/avatar.png',
+    authorAvatar: '/avatar.gif',
     // 备案号
-    record: 'xxxx',
+    record: '',
     // 项目开始时间
-    startYear: '2017'
+    startYear: '2020'
     /**
      * 密钥 (if your blog is private)
      */
