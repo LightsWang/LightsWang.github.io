@@ -75,7 +75,7 @@ module.exports = {
     // 备案号
     record: '',
     // 项目开始时间
-    startYear: '2020'
+    startYear: '2020',
     /**
      * 密钥 (if your blog is private)
      */
@@ -90,12 +90,35 @@ module.exports = {
      * valine 设置 (if you need valine comment )
      */
 
-    // valineConfig: {
-    //   appId: '...',// your appId
-    //   appKey: '...', // your appKey
+    valineConfig: {
+      appId: 'rlCo2V3huPBM9j4mp74HgJJg-gzGzoHsz',// your appId
+      appKey: 'wxksrSAqeqUr4IwKqUA9xNYJ', // your appKey
+    }
+    // vssueConfig: {
+    //   platform: 'github',
+    //   owner: 'OWNER_OF_REPO',
+    //   repo: 'NAME_OF_REPO',
+    //   clientId: 'YOUR_CLIENT_ID',
+    //   clientSecret: 'YOUR_CLIENT_SECRET',
     // }
   },
   markdown: {
     lineNumbers: true
-  }
+  },
+  "plugins": [
+    [
+      "@vuepress-reco/vuepress-plugin-kan-ban-niang",
+      {
+        theme: ["haru1"],
+        clean: false,
+        messages: {
+          welcome: '相遇即是缘，欢迎你的到来！ ',
+          home: '跟我回家！',
+          theme: '好吧，希望你能喜欢我的其他小伙伴。',
+          close: '再见哦'
+        }
+      },
+    ],
+    "vuepress-plugin-auto-sidebar"
+  ]
 }  

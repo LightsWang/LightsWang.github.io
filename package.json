@@ -9,10 +9,13 @@
     "p": "bash push.sh"
   },
   "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-comments": "^1.4.6",
     "vuepress": "1.5.0",
+    "vuepress-plugin-auto-sidebar": "^1.5.0",
     "vuepress-theme-reco": "1.4.6"
   },
   "dependencies": {
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
     "vue-class-component": "^7.2.3"
   },
   "description": "my blog"
