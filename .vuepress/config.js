@@ -1,6 +1,6 @@
 module.exports = {
   title: "简简单单、点点滴滴",
-  description: '简简单单、点点滴滴的个人博客',
+  description: '个人空间',
   dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
