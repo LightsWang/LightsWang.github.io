@@ -1,9 +1,10 @@
 module.exports = {
   title: "简简单单、点点滴滴",
-  description: '个人空间',
+  description: '只要你还愿意努力，相信老天会给你惊喜！',
   dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ["link", { rel: "stylesheet", href: "/common.css" }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   theme: 'reco',
@@ -24,14 +25,6 @@ module.exports = {
       //   ]
       // }
     ],
-    sidebar: {
-      '/docs/theme-reco/': [
-        '',
-        'theme',
-        'plugin',
-        'api'
-      ]
-    },  
     type: 'blog',
     // 博客设置
     blogConfig: {
@@ -65,7 +58,8 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     // 自动形成侧边导航
-    // sidebar: 'auto',
+    sidebar: 'auto',
+    sidebarDepth: 2,
     // 最后更新时间
     lastUpdated: 'Last Updated',
     // 作者
@@ -94,13 +88,6 @@ module.exports = {
       appId: 'rlCo2V3huPBM9j4mp74HgJJg-gzGzoHsz',// your appId
       appKey: 'wxksrSAqeqUr4IwKqUA9xNYJ', // your appKey
     }
-    // vssueConfig: {
-    //   platform: 'github',
-    //   owner: 'OWNER_OF_REPO',
-    //   repo: 'NAME_OF_REPO',
-    //   clientId: 'YOUR_CLIENT_ID',
-    //   clientSecret: 'YOUR_CLIENT_SECRET',
-    // }
   },
   markdown: {
     lineNumbers: true
