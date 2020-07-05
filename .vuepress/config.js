@@ -106,6 +106,62 @@ module.exports = {
         }
       },
     ],
-    "vuepress-plugin-auto-sidebar"
+    [
+      "@vuepress-reco/vuepress-plugin-bgm-player",
+      {
+        audios: [
+          // 本地文件示例
+          // {
+          //   name: '장가갈 수 있을까',
+          //   artist: '咖啡少年',
+          //   url: '/bgm/1.mp3',
+          //   cover: '/bgm/1.jpg'
+          // },
+          // 网络文件示例
+          {
+            name: '处处吻',
+            artist: '杨千嬅',
+            url: 'https://webfs.yun.kugou.com/202007051704/9e8e3fd2bd247e6ac17b948fddd37a28/part/0/960050/G195/M02/06/11/o5QEAF5YjfeAUe_aADC0kUt3rUc848.mp3',
+            cover: 'https://p3fx.kgimg.com/stdmusic/20160807/20160807132804478424.jpg'
+          },
+          {
+            name: ' Wonderful U(Live)',
+            artist: '张含韵',
+            url: 'https://eu-sycdn.kuwo.cn/3d071b6407233b7dd79f868f27c9032a/5f018d18/resource/n3/13/62/3253780349.mp3',
+            cover: 'https://img4.kuwo.cn/star/albumcover/300/19/19/3200679308.jpg'
+          },
+          {
+            name: ' 少年',
+            artist: '梦然',
+            url: 'https://webfs.yun.kugou.com/202007051554/295cf6d36d6ce208c8612ad6a41ff371/G170/M07/16/11/SocBAF3H3aqAUYOEADmpdloW3bU827.mp3',
+            cover: 'https://p3fx.kgimg.com/stdmusic/20191110/20191110174405582448.jpg'
+          },
+          {
+            name: ' Salt',
+            artist: 'Ava Max',
+            url: 'https://webfs.yun.kugou.com/202007051603/3146bf01920d3d0be8d1fe0306b98f3b/part/0/960931/G095/M04/1C/09/_4YBAFuyAQCAcS5IACxzw8IlOUk721.mp3',
+            cover: 'https://p3fx.kgimg.com/stdmusic/20191211/20191211153103312934.png'
+          },
+          {
+            name: '微微',
+            artist: '傅如乔',
+            url: 'https://webfs.yun.kugou.com/202007051600/7f05b6a7ccc0c123eababf293a5480fd/G200/M0A/14/15/aIcBAF54ZTuASZlZAEOqn_GhLhs992.mp3',
+            cover: 'https://p3fx.kgimg.com/stdmusic/20200417/20200417115814250186.jpg'
+          },
+          {
+            name: '강남역 4번 출구',
+            artist: 'Plastic / Fallin` Dild',
+            url: 'https://assets.smallsunnyfox.com/music/2.mp3',
+            cover: 'https://assets.smallsunnyfox.com/music/2.jpg'
+          },
+          {
+            name: '用胳膊当枕头',
+            artist: '최낙타',
+            url: 'https://assets.smallsunnyfox.com/music/3.mp3',
+            cover: 'https://assets.smallsunnyfox.com/music/3.jpg'
+          }
+        ]  
+      },
+    ]
   ]
 }  

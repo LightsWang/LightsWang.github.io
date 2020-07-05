@@ -8,11 +8,11 @@ categories:
  - 前端
 ---
 
-# .sync有神马用
+## .sync有神马用
 - .sync是vue中用于实现简单的“双向绑定”的语法糖，在平时的开发中是非常使用的。
 - vue的prop是单向下行绑定：父级的prop的更新会向下流动到子组件中，但是反过来不行。可是有些情况，我们需要对prop进行“双向绑定”。这个时候，就可以用.sync来解决
 
-# .sync怎么用
+## .sync怎么用
 
 ```
     <my-title :title.sync="title"></my-title>
