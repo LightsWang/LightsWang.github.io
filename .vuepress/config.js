@@ -3,7 +3,7 @@ module.exports = {
   description: '只要你还愿意努力，相信老天会给你惊喜！',
   dest: 'public',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/img/favicon.ico' }],
     ["link", { rel: "stylesheet", href: "/common.css" }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
@@ -18,6 +18,7 @@ module.exports = {
     nav: [
       { text: '主页', link: '/', icon: 'reco-home' },
       { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
+      { text: '留言板', link: '/blogs/other/message', icon: 'reco-suggestion' },
       // { text: '联系', 
       //   icon: 'reco-message',
       //   items: [
@@ -53,7 +54,7 @@ module.exports = {
     //     link: 'https://vuepress-theme-reco.recoluan.com'
     //   },
     // ],
-    logo: '/logo.png',
+    logo: '/img/logo.png',
     // 搜索设置
     search: true,
     searchMaxSuggestions: 10,
@@ -65,7 +66,7 @@ module.exports = {
     // 作者
     author: '简简单单、点点滴滴',
     // 作者头像
-    authorAvatar: '/avatar.gif',
+    authorAvatar: '/img/avatar.gif',
     // 备案号
     record: '',
     // 项目开始时间
@@ -93,6 +94,9 @@ module.exports = {
     lineNumbers: true
   },
   "plugins": [
+    [
+      "vuepress-plugin-boxx"
+    ],
     [
       "@vuepress-reco/vuepress-plugin-kan-ban-niang",
       {

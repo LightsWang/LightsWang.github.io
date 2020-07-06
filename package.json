@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
-    "vue-class-component": "^7.2.3"
+    "vue-class-component": "^7.2.3",
+    "vuepress-plugin-boxx": "0.0.7"
   },
   "description": "my blog"
 }
